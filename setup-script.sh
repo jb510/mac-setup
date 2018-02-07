@@ -2,6 +2,12 @@
 
 # Jon's New Mac Setup script
 
+# Ask for the administrator password upfront.
+sudo -v
+
+# Keep-alive: update existing `sudo` time stamp until the script has finished.
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+
 fancy_echo() {
   local fmt="$1"; shift
 
@@ -131,27 +137,6 @@ brew "sshfs"
 brew "subversion"
 brew "homebrew/php/composer"
 
-# My Casks
-cask "1password"
-cask "alfred"
-cask alfred link
-cask "dropbox"
-cask "transmit"
-cask "java"
-cask "iterm2"
-cask "keybase"
-cask "vagrant"
-cask "virtualbox"
-cask "local-by-flywheel"
-cask "vlc"
-cask "google-chrome"
-cask "firefox"
-cask "firefox-developer-edition"
-cask "skype"
-cask "spotify"
-cask "spotifree"
-
-
 #Mac App Store
 brew "mas"
 #mas 'Airmail 3', id: 918858936
@@ -160,7 +145,6 @@ mas 'Better Rename 9', id: 414209656
 mas 'CodeBox', id: 412536790
 mas 'EasyFind', id: 411673888
 mas 'Evernote', id: 406056744
-mas 'Fantastical 2', id: 975937182
 mas 'Fantastical 2', id: 975937182
 #mas 'Fusion360', id: 868968810
 #mas 'GarageBand', id: 682658836
@@ -182,6 +166,27 @@ mas 'Slack', id: 803453959
 #mas 'TurboTax 2013', id: 725008736
 mas 'Tweetbot', id: 557168941
 #mas 'Xcode', id: 497799835
+
+
+# My Casks
+cask "1password"
+cask "alfred"
+cask alfred link
+cask "dropbox"
+cask "transmit"
+cask "java"
+cask "iterm2"
+cask "keybase"
+cask "vagrant"
+cask "virtualbox"
+cask "local-by-flywheel"
+cask "vlc"
+cask "google-chrome"
+cask "firefox"
+cask "firefox-developer-edition"
+cask "skype"
+cask "spotify"
+cask "spotifree"
 
 # Unix
 #brew "universal-ctags", args: ["HEAD"]
