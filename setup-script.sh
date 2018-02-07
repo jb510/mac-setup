@@ -133,6 +133,7 @@ brew "homebrew/php/composer"
 
 # My Casks
 cask "java"
+cask "iterm2"
 cask "keybase"
 cask "vagrant"
 cask "virtualbox"
@@ -147,6 +148,7 @@ mas 'Better Rename 9', id: 414209656
 mas 'CodeBox', id: 412536790
 mas 'EasyFind', id: 411673888
 mas 'Evernote', id: 406056744
+mas 'Fantastical 2', id: 975937182
 mas 'Fantastical 2', id: 975937182
 #mas 'Fusion360', id: 868968810
 #mas 'GarageBand', id: 682658836
@@ -183,6 +185,7 @@ brew "tmux"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
+brew "zsh-syntax-highlighting"
 brew "z"
 
 # GitHub
