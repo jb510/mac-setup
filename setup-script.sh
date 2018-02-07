@@ -168,7 +168,7 @@ mas 'Slack', id: 803453959
 #mas 'Spark', id: 1176895641
 #mas 'TurboTax 2013', id: 725008736
 mas 'Tweetbot', id: 557168941
-mas 'Xcode', id: 497799835
+#mas 'Xcode', id: 497799835
 
 # Unix
 #brew "universal-ctags", args: ["HEAD"]
