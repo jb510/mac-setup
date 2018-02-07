@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Jon's New Mac Setup script
+# curl 
 
 # Ask for the administrator password upfront.
 sudo -v
