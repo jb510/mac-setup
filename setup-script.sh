@@ -175,6 +175,7 @@ cask "1password"
 cask "alfred"
 cask alfred link
 cask "dropbox"
+cask "encryptme"
 cask "google-drive-file-stream"
 cask "transmit"
 cask "java"
