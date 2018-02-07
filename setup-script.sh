@@ -132,13 +132,25 @@ brew "subversion"
 brew "homebrew/php/composer"
 
 # My Casks
+cask "1password"
+cask "alfred"
+cask alfred link
+cask "dropbox"
+cask "transmit"
 cask "java"
 cask "iterm2"
 cask "keybase"
 cask "vagrant"
 cask "virtualbox"
+cask "local-by-flywheel"
 cask "vlc"
 cask "google-chrome"
+cask "firefox"
+cask "firefox-developer-edition"
+cask "skype"
+cask "spotify"
+cask "spotifree"
+
 
 #Mac App Store
 brew "mas"
