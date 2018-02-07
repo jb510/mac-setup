@@ -149,7 +149,7 @@ mas 'EasyFind', id: 411673888
 mas 'Evernote', id: 406056744
 mas 'Fantastical 2', id: 975937182
 #mas 'Fusion360', id: 868968810
-mas 'GarageBand', id: 682658836
+#mas 'GarageBand', id: 682658836
 mas 'GIF Brewery 3', id: 1081413713
 mas 'iBooks Author', id: 490152466
 mas 'iMovie', id: 408981434
