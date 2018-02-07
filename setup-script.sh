@@ -8,6 +8,7 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# Reading is better with a Rainbow
 fancy_echo() {
   local fmt="$1"; shift
 
@@ -15,6 +16,7 @@ fancy_echo() {
   printf "\n$fmt\n" "$@"
 }
 
+# future...  fanicer appened personal setting to .zshrc
 append_to_zshrc() {
   local text="$1" zshrc
   local skip_new_line="${2:-0}"
@@ -163,7 +165,6 @@ mas 'Simplenote', id: 692867256
 mas 'SiteSucker', id: 442168834
 mas 'Slack', id: 803453959
 #mas 'Spark', id: 1176895641
-#mas 'TurboTax 2013', id: 725008736
 mas 'Tweetbot', id: 557168941
 #mas 'Xcode', id: 497799835
 
