@@ -142,7 +142,33 @@ cask "google-chrome"
 
 #Mac App Store
 brew "mas"
+#mas 'Airmail 3', id: 918858936
+mas 'Annotate', id: 918207447
+mas 'Better Rename 9', id: 414209656
+mas 'CodeBox', id: 412536790
+mas 'EasyFind', id: 411673888
+mas 'Evernote', id: 406056744
+mas 'Fantastical 2', id: 975937182
+#mas 'Fusion360', id: 868968810
+mas 'GarageBand', id: 682658836
+mas 'GIF Brewery 3', id: 1081413713
+mas 'iBooks Author', id: 490152466
+mas 'iMovie', id: 408981434
+mas 'IP Scanner', id: 404167149
+mas 'Keynote', id: 409183694
+mas 'LogTail', id: 1073404370
+mas 'Numbers', id: 409203825
+mas 'PageLayers', id: 437835477
+mas 'Pages', id: 409201541
+mas 'Permute', id: 731738567
+mas 'QuickBooks', id: 640830064
+mas 'Simplenote', id: 692867256
+mas 'SiteSucker', id: 442168834
 mas 'Slack', id: 803453959
+#mas 'Spark', id: 1176895641
+#mas 'TurboTax 2013', id: 725008736
+mas 'Tweetbot', id: 557168941
+mas 'Xcode', id: 497799835
 
 # Unix
 #brew "universal-ctags", args: ["HEAD"]
