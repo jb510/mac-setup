@@ -115,7 +115,6 @@ tap "caskroom/cask"
 # My Formulae
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "homebrew/dupes"
 tap "homebrew/php"
 tap "homebrew/services"
 brew "handbrake"
