@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Jon's New Mac Setup script
-# curl 
+# curl -s https://raw.githubusercontent.com/jb510/mac-setup/master/setup-script.sh | bash -
 
 # Ask for the administrator password upfront.
 sudo -v
