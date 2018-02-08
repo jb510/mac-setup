@@ -173,7 +173,6 @@ mas 'Tweetbot', id: 557168941
 # My Casks
 cask "1password"
 cask "alfred"
-#cask alfred link
 cask "blisk"
 cask "cloudup"
 cask "dash"
